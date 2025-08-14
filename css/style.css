@@ -141,16 +141,19 @@ body {
     opacity: 0.8;
 }
 
-@media (max-width: 800px) {
+/* Responsive */
+@media (max-width:768px) {
     #hero {
         height: 250px;
+        background-position: center;
+        padding: 0 10px;
     }
 
-    .hero-text h1 {
-        font-size: 2rem;
+    #hero h1 {
+        font-size: 1.5rem;
     }
 
-    .hero-text p {
+    #hero p {
         font-size: 1rem;
     }
 }
