@@ -66,3 +66,17 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+
+@media (max-width: 800px) {
+    #hero {
+        height: 250px;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+}
