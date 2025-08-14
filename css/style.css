@@ -1,0 +1,68 @@
+/* Reset the whole page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+.main-header {
+    position: flex;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity 0.5 ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.5;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url(../images/my-picture.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #F8F9FA;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-text {
+    padding: 20px;
+    border-radius: 10px;
+}
